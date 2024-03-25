@@ -1,0 +1,106 @@
+body{
+    background-image: url("https://staticgeopop.akamaized.net/wp-content/uploads/sites/32/2023/05/memoria-collettiva.jpg?im=AspectCrop=(16,9);");
+    background-size: cover;
+    font-family: cursive;
+    color: white;
+}
+.notificacion{
+    display: none;
+    position: absolute;
+    background-color: #918585a2;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8px auto;
+}
+.modal{
+    text-align: center;
+    height: 30%;
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20% auto;
+}.mensaje{
+    color: black;
+}
+.reintentar{
+    background-color: rgba(21, 102, 21, 0.616);
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px; 
+    padding: 6px;
+    padding-left: 14px;
+}
+
+.reintentar:hover{
+    cursor: pointer;
+    transition: .6s;
+    background-color: rgb(73, 94, 42);
+}
+.resultado{
+    margin-top: 5px;
+    font-size: 30px;
+    padding: 8px;
+}
+
+
+.section1{
+    background-color: rgba(25, 25, 141, 0.329);
+    padding:0 10px 10px 10px ;
+    border-radius: 20px;
+    text-align: center;
+}
+.h1{
+    text-align: center;
+
+}
+
+.botones{
+    
+    height: 100px;
+    width: 100px;
+    font-size:35px;
+    color: rgba(21, 31, 119, 0.87);
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
+.botoncito:hover{
+    cursor: pointer;
+    transform:translateY(-10px);
+    transition: .5s;
+    border: 1px solid blue;
+    border-radius: 30px;
+    filter: drop-shadow(10px 10px 6px  rgba(35, 35, 126, 0.103));
+
+}
+
+.section2{
+    padding: 10px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    text-align: center;
+    background-color: rgba(25, 25, 141, 0.329);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
+img{ 
+    width: 100%;
+}
